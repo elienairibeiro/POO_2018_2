@@ -1,4 +1,4 @@
-# Carro
+# Atividade 01 Carro
 - O que você fez?
     - Fiz a atividade do carro com as funções pedidas na questão.
 - Com quem e como você fez?
@@ -9,3 +9,14 @@
     - A questão do carro foi tranquila, em relação a ela não tive dificuldade.
 - Quanto tempo levou pra fazer a atividade?
     - Aproximadamente 1 hora, pra revisar o que foi ensinado em sala e desenvolver a solução da questão.
+# Atividade 02 Topic
+- O que você fez?
+    - Fiz parte da atividade; criar, cadastrar e mostrar.
+- Com quem e como você fez?
+    - Fiz usando o que foi ensinado em aula.
+- O que aprendeu e sabe fazer?
+    - Criar, cadastrar e mostrar, que foi pedido na atividade.
+- O que tem dificuldade ainda?
+    - Ponteiro, fluxo.
+- Quanto tempo levou pra fazer a atividade?
+    - Um total aproximado de 3 - 4 horas.
