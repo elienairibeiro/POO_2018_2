@@ -1,4 +1,4 @@
-![](Elienai.JPG)
+![](Elienai.png)
 
 # Atividade 01 Carro
 - O que você fez?
