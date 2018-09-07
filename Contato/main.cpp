@@ -34,11 +34,11 @@ public:
 
     bool validar(string numero){
         for (int i = 0; i < (int)numero.size(); i++){
-            if(!isdigit(numero[i]) && numero[i] != '(' && numero[i] != ')'){
-                return false;
+            if(isdigit(numero[i]) && numero[i] != '(' && numero[i] != ')'){
+                return true;
             }
         }
-        return true;
+        return false;
     }
 
     bool adicionar(Fone fone){
@@ -87,7 +87,7 @@ public:
                 }
             }
         } else{
-            cout << "  fail: update invalido" << endl;
+            cout << "  fail: update invalido";
         }
     }
 
@@ -111,7 +111,7 @@ struct Controller{
         in >> opcao;
 
         if(opcao == "help"){
-            out << "iniciar _nome; show; adicionar _operadora_fone; deletar _operadora; end;";
+            out << "iniciar _nome; show; adicionar _operadora_numero; remover _id; atualizar _nome_operadora_numero; end;";
         }else if(opcao == "iniciar"){
             string nome;
             in >> nome;
@@ -137,6 +137,7 @@ struct Controller{
             string linha;
             getline(in, linha);
             contato.atualizar(linha);
+            out << "done";
         }
 
         return out.str();
