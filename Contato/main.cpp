@@ -5,48 +5,62 @@
 using namespace std;
 
 struct Fone{
+public:
+    string operadora;
+    string numero;
 
-    //Atributos
-    string id;
-    string fone;
-
-    //Metodos
-    Fone(string id = "", string fone = ""):
-        id(id), fone(fone)
+    Fone(string operadora = "", string numero = ""):
+        operadora(operadora), numero(numero)
     {
     }
 
     string toString(){
-        stringstream ss;
-        ss << "[" << id << ":" << fone << "]";
-        return ss.str();
+        stringstream saida;
+        saida << operadora << ":" << numero;
+        return saida.str();
     }
 };
 
 struct Contato{
-
-    //Atributos
-    string id;
+private:
+    string nome;
     vector<Fone> fones;
 
-    //Metodos
-    Contato(string id = "Zazen"):
-        id(id)
+public:
+    Contato(string nome = "Vazio"):
+        nome(nome)
     {
     }
 
-    bool adicionar(Fone fone){
-        for(auto telefone : fones)
-            if(telefone.id == fone.id){
+    bool validar(string numero){
+        for (int i = 0; i < (int)numero.size(); i++){
+            if(!isdigit(numero[i]) && numero[i] != '(' && numero[i] != ')'){
                 return false;
             }
-        fones.push_back(fone);
+        }
         return true;
     }
 
-    bool deletar(string foneId){
-        for(int i = 0; i < fones.size(); i++){
-            if(fones[i].id == foneId){
+    bool adicionar(Fone fone){
+        for(auto telefone : fones){
+            if(telefone.numero == fone.numero){
+                cout << "  fail: ID duplicado";
+                return false;
+            }
+        }
+        
+        if(validar(fone.numero)){
+            fones.push_back(fone);
+            return true;
+        }else{
+            cout << "  fail: Numero invalido";
+            return false;
+        }
+    }
+
+    bool remover(int foneId){
+        for(int i = 0; i < (int)fones.size(); i++){
+            if(i == foneId){
                 fones.erase(fones.begin() + i);
                 return true;
             }
@@ -54,12 +68,36 @@ struct Contato{
         return false;
     }
 
+    void atualizar(string line){
+        stringstream in(line);
+        string palavra;
+
+        in >> palavra;
+        if (palavra == nome){
+            fones.clear();
+            while (in >> palavra){
+                stringstream ss(palavra);
+                string operadora, numero;
+                getline(ss, operadora, ':');
+                getline(ss, numero);
+                if (validar(numero))
+                    fones.push_back(Fone(operadora, numero));
+                else{
+                    cout << "  fail: o numero da " << operadora << " nao e valido";
+                }
+            }
+        } else{
+            cout << "  fail: update invalido" << endl;
+        }
+    }
+
     string toString(){
-        stringstream ss;
-        ss << id << " ";
-        for(auto fone : fones)
-            ss << fone.toString();
-        return ss.str();
+        stringstream saida;
+        saida << nome << "=>";
+        for(int i = 0; i < fones.size(); i++){
+            saida << "[" << i << ":" << fones[i].toString() << "]";
+        }
+        return saida.str();
     }
 };
 
@@ -82,21 +120,23 @@ struct Controller{
         }else if(opcao == "show"){
             out << contato.toString();
         }else if(opcao == "adicionar"){
-            string id, fone;
-            in >> id >> fone;
-            if(contato.adicionar(Fone(id, fone))){
+            string nome, fone;
+            in >> nome >> fone;
+            if(contato.adicionar(Fone(nome, fone))){
                 out << "done";
-            }else{
-                out << "fail: id duplicado";
             }
-        }else if(opcao == "deletar"){
-            string id;
+        }else if(opcao == "remover"){
+            int id;
             in >> id;
-            if(contato.deletar(id)){
+            if(contato.remover(id)){
                 out << "done";
             }else{
-                out << "fail: id nao encontrado";
+                out << "fail: ID nao encontrado";
             }
+        }else if(opcao == "atualizar"){
+            string linha;
+            getline(in, linha);
+            contato.atualizar(linha);
         }
 
         return out.str();
