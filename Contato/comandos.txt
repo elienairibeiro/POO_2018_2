@@ -1,0 +1,14 @@
+help
+show
+iniciar Elienai
+adicionar oi 85
+adicionar oi 86
+adicionar tim 99
+adicionar casa 80w
+adicionar casa 32
+show
+remover 0
+show
+atualizar Elienai oi:8885 vivo:97a2 casa:3250 tim:9987
+show
+end
