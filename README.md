@@ -33,3 +33,14 @@
     - Ponteiro, e um pouco ainda de controle de fluxo, mais já consigo usar para algumas coisas.
 - Quanto tempo levou pra fazer a atividade?
     - Por volta de 4 horas.
+# Atividade 04 Tamagotchi
+- O que você fez?
+    - Fiz todas funções pedidas pela a atividade, com as retrições pedidas pela mesma.
+- Com quem e como você fez?
+    - Fiz usando o que foi ensinado em aula, e uma ajuda do Guilherme para saber do conteúdo da aula passada, porque eu estava doente e não fui para a aula.
+- O que aprendeu e sabe fazer?
+    - Pratiquei os conhecimentos das atividades anteriores.
+- O que tem dificuldade ainda?
+    - Fluxo e ponteiro.
+- Quanto tempo levou pra fazer a atividade?
+    - Por volta de 2 horas.
