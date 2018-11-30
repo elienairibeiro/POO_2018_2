@@ -44,3 +44,14 @@
     - Fluxo e ponteiro.
 - Quanto tempo levou pra fazer a atividade?
     - Por volta de 2 horas.
+# Atividade 05 Conta Bancaria
+- O que você fez?
+    - Fiz todas funções pedidas pela a atividade, com as retrições pedidas pela mesma.
+- Com quem e como você fez?
+    - Fiz usando o que foi ensinado em aula.
+- O que aprendeu e sabe fazer?
+    - Pratiquei os conhecimentos das atividades anteriores.
+- O que tem dificuldade ainda?
+    - Ponteiro.
+- Quanto tempo levou pra fazer a atividade?
+    - Por volta de 3 horas.
