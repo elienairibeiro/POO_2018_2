@@ -55,3 +55,14 @@
     - Ponteiro.
 - Quanto tempo levou pra fazer a atividade?
     - Por volta de 3 horas.
+# Atividade 06 Repositório
+- O que você fez?
+    - As funções envolvendo repositório pedidas pela atividade.
+- Com quem e como você fez?
+    - Revisando conteúdo das aulas e com a ajuda do Javel para compreender melhor.
+- O que aprendeu e sabe fazer?
+    - Aprendi a usar repositório.
+- O que tem dificuldade ainda?
+    - Um pouco de dúvida em tratamento de exceção.
+- Quanto tempo levou pra fazer a atividade?
+    - Por volta de 3 horas.
