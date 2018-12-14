@@ -77,4 +77,16 @@
     - Um pouco de dúvida ainda em polimorfismo, mas só no início, já consigo fazer as atividades desse conteúdo.
 - Quanto tempo levou pra fazer a atividade?
     - Por volta de 5 horas.
-    
+# Atividade Cáculo de Salário
+- O que você fez?
+    - As funções envolvendo polimorfismo e repositório pedidas pela atividade.
+- Com quem e como você fez?
+    - Revisei as aulas de polimorfismo para fazer a atividade, tive ajuda para fazer somente a parte que envolve "toString", que nessa atividade envolve repositorio e polimorfismo.
+- O que aprendeu e sabe fazer?
+    - Aprofundei o conteúdo de polimorfismo e repositório.
+- O que tem dificuldade ainda?
+    - Um pouco ainda polimorfismo.
+- Quanto tempo levou pra fazer a atividade?
+    - Por volta de 7 horas.
+
+- Tive a ajuda de dois colegas para acompanhar e enterder esses últimos conteúdos(Repositório e Polimorfismo), assisti as aulas para rever os conteúdos também, compreendi repositório e polimorfismo, ainda tenho um pouco de dúvida em polimorfismo, mas já consigo desenrolar.
