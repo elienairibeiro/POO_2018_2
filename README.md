@@ -1,6 +1,6 @@
 ![](Elienai.png)
 
-# Atividade 01 Carro
+# Atividade Carro
 - O que você fez?
     - Fiz a atividade do carro com as funções pedidas na questão.
 - Com quem e como você fez?
@@ -11,7 +11,7 @@
     - A questão do carro foi tranquila, em relação a ela não tive dificuldade.
 - Quanto tempo levou pra fazer a atividade?
     - Aproximadamente 1 hora, pra revisar o que foi ensinado em sala e desenvolver a solução da questão.
-# Atividade 02 Topic
+# Atividade Topic
 - O que você fez?
     - Fiz parte da atividade; criar, cadastrar e mostrar.
 - Com quem e como você fez?
@@ -22,7 +22,7 @@
     - Ponteiro, fluxo.
 - Quanto tempo levou pra fazer a atividade?
     - Um total aproximado de 3 - 4 horas.
-# Atividade 03 Contato Telefônico
+# Atividade Contato Telefônico
 - O que você fez?
     - Fiz as funções pedidas pela a atividade, criar, mostrar, cadastrar, remover, atualizar e validação.
 - Com quem e como você fez?
@@ -33,7 +33,7 @@
     - Ponteiro, e um pouco ainda de controle de fluxo, mais já consigo usar para algumas coisas.
 - Quanto tempo levou pra fazer a atividade?
     - Por volta de 4 horas.
-# Atividade 04 Tamagotchi
+# Atividade Tamagotchi
 - O que você fez?
     - Fiz todas funções pedidas pela a atividade, com as retrições pedidas pela mesma.
 - Com quem e como você fez?
@@ -44,7 +44,7 @@
     - Fluxo e ponteiro.
 - Quanto tempo levou pra fazer a atividade?
     - Por volta de 2 horas.
-# Atividade 05 Conta Bancaria
+# Atividade Conta Bancaria
 - O que você fez?
     - Fiz todas funções pedidas pela a atividade, com as retrições pedidas pela mesma.
 - Com quem e como você fez?
@@ -55,7 +55,7 @@
     - Ponteiro.
 - Quanto tempo levou pra fazer a atividade?
     - Por volta de 3 horas.
-# Atividade 06 Repositório
+# Atividade Repositório
 - O que você fez?
     - As funções envolvendo repositório pedidas pela atividade.
 - Com quem e como você fez?
@@ -66,3 +66,15 @@
     - Um pouco de dúvida em tratamento de exceção.
 - Quanto tempo levou pra fazer a atividade?
     - Por volta de 3 horas.
+# Atividade Trem II
+- O que você fez?
+    - As funções envolvendo polimorfismo e atribuição de resposabilidade pedidas pela atividade.
+- Com quem e como você fez?
+    - Revisei as aulas de polimorfismo para fazer a atividade, e tirei algunas dúvidas como Javel, porque estava um pouco atrasado no conteúdo, pois perdi algumas aulas por motivos de viajens imprevistas que tive.
+- O que aprendeu e sabe fazer?
+    - Polimorfismo.
+- O que tem dificuldade ainda?
+    - Um pouco de dúvida ainda em polimorfismo, mas só no início, já consigo fazer as atividades desse conteúdo.
+- Quanto tempo levou pra fazer a atividade?
+    - Por volta de 5 horas.
+    
