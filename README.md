@@ -88,5 +88,4 @@
     - Um pouco ainda polimorfismo.
 - Quanto tempo levou pra fazer a atividade?
     - Por volta de 7 horas.
-
 - Tive a ajuda de dois colegas para acompanhar e enterder esses últimos conteúdos(Repositório e Polimorfismo), assisti as aulas para rever os conteúdos também, compreendi repositório e polimorfismo, ainda tenho um pouco de dúvida em polimorfismo, mas já consigo desenrolar.
